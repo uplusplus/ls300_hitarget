@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/3DMuseum/!svn/ver/43/project/DigitalMuseum/res/anim
+END
+slide_out_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/3DMuseum/!svn/ver/43/project/DigitalMuseum/res/anim/slide_out_left.xml
+END
+slide_in_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/3DMuseum/!svn/ver/43/project/DigitalMuseum/res/anim/slide_in_right.xml
+END
+rotate_story_add_button_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/3DMuseum/!svn/ver/25/project/DigitalMuseum/res/anim/rotate_story_add_button_in.xml
+END
+rotate_story_add_button_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/3DMuseum/!svn/ver/25/project/DigitalMuseum/res/anim/rotate_story_add_button_out.xml
+END
+zoomin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/3DMuseum/!svn/ver/43/project/DigitalMuseum/res/anim/zoomin.xml
+END
+zoomout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/3DMuseum/!svn/ver/43/project/DigitalMuseum/res/anim/zoomout.xml
+END

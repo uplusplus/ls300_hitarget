@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/more_itemmiddle_press"
+        android:gravity="left|center_vertical"
+        android:padding="5dp"
+        android:text="@string/Tcp"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_middle"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TableLayout
+        android:id="@+id/MorePageTableLayout_Laser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/IP"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_set_ip"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/Port"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_set_port"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/State"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_set_tcp_state"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:src="@drawable/state_on" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/more_itemmiddle_press"
+        android:gravity="left|center_vertical"
+        android:padding="5dp"
+        android:text="@string/Serial"
+        android:textColor="#000000"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TableLayout
+        android:id="@+id/MorePageTableLayout_Sick"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/Device"
+                android:textColor="#000000" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_set_name"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/Baudrate"
+                android:textColor="#000000" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_set_stuff"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/State"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_set_serial_state"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:src="@drawable/state_on" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

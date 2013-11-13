@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    style="@style/ActionBarCompat" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/HT"
+        android:layout_marginTop="10sp"
+        android:paddingLeft="15dip"
+        android:textColor = "#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="18sp"
+        />
+		
+
+
+</LinearLayout>

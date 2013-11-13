@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/MorePageTableLayout_precision"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center" >
+
+            <Spinner
+                android:id="@+id/sp_set_precise"
+                android:layout_width="match_parent"
+                android:layout_span="2" />
+        </TableRow>
+        <!-- 水平方向 -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:padding="3dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="4.0dip"
+                android:text="@string/horizontally"
+                android:textColor="#ff888888"
+                android:textSize="@dimen/text_size_middle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <!-- 起始角 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:text="@string/plusdelay"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/et_set_precise_plusdelay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:ems="5"
+                android:padding="3dip"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/set_btn_plus_delay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:background="@drawable/main_navigation_more"
+                android:gravity="right" />
+        </TableRow>
+
+        <!-- 垂直方向 -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:padding="3dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="4.0dip"
+                android:text="@string/vertical"
+                android:textColor="#ff888888"
+                android:textSize="@dimen/text_size_middle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <!-- 频率 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:gravity="left"
+                android:text="@string/frequency"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/et_set_precise_frequency"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:ems="10"
+                android:gravity="left|center_vertical"
+                android:padding="3dip"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/set_btn_frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:background="@drawable/main_navigation_more"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <!-- 起始角 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:gravity="left"
+                android:text="@string/resolution"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/et_set_precise_resolution"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:ems="10"
+                android:gravity="left|center_vertical"
+                android:padding="3dip"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/set_btn_resolution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:background="@drawable/main_navigation_more"
+                android:gravity="right" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

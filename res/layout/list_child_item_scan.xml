@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/more_itemmiddle_press"
+        android:gravity="left|center_vertical"
+        android:padding="5dip"
+        android:text="@string/datapath"
+        android:textColor="#000000"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TableLayout
+        android:id="@+id/MorePageTableLayout_Laser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <TextView
+                android:layout_margin="5dp"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="@string/rootdir"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_set_root_dir"
+                android:layout_margin="5dp"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:padding="3dip"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newconfig"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/newconfig" />
+    
+    <item android:id="@+id/newdata" 
+        android:title="@string/newdata" 
+        android:icon="@android:drawable/ic_delete">
+    </item>
+    
+    <item android:id="@+id/back" 
+          android:title="@string/back" 
+          android:icon="@android:drawable/ic_input_delete">
+    </item>
+
+</menu>

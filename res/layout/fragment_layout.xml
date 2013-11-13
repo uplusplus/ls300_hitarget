@@ -1,0 +1,55 @@
+<com.hdsy.ui.DashboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <!-- Scan Button -->
+
+    <Button
+        android:id="@+id/btn_scan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/scan3"
+        android:text="@string/Scan" />
+
+    <!-- Guide Button -->
+
+    <Button
+        android:id="@+id/btn_guide"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/guid3"
+        android:text="@string/Guide" />
+
+    <!-- Data Button -->
+
+    <Button
+        android:id="@+id/btn_data"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/data3"
+        android:text="@string/Data" />
+
+    <!-- Config Button -->
+
+    <Button
+        android:id="@+id/btn_config"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/config3"
+        android:text="@string/Config" />
+
+    <!-- Setting Button -->
+
+    <Button
+        android:id="@+id/btn_setting"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/setting"
+        android:text="@string/Setting" />
+
+    <!-- Leave Button -->
+
+    <Button
+        android:id="@+id/btn_leave"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/leave3"
+        android:text="@string/Leave" />
+
+</com.hdsy.ui.DashboardView>

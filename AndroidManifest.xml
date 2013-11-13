@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hdsy.ls300"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hdsy.ls300.ActivitySplash"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name="com.hdsy.ls300.ActivityDashboard"
+            android:launchMode="singleInstance" >
+        </activity>
+
+        <!-- Scan Activity -->
+        <activity
+            android:name="com.hdsy.ls300.ActivityMainTab"
+            android:launchMode="singleTop" >
+        </activity>
+
+        <!-- Guide Activity -->
+        <activity
+            android:name="com.hdsy.ls300.ActivityGuide"
+            android:launchMode="singleTop" >
+        </activity>
+
+        <!-- Data Activity -->
+        <activity android:name="com.hdsy.ls300.ActivityDataList" >
+        </activity>
+        <activity android:name="com.hdsy.ls300.ActivityDataView" >
+        </activity>
+        <activity android:name="com.hdsy.ls300.ActivityDataImageView" >
+        </activity>
+        <activity android:name="com.hdsy.ls300.ActivityNewData" >
+        </activity>
+
+        <!-- Config Activity -->
+        <activity android:name="com.hdsy.ls300.ActivityConfigList" >
+        </activity>
+        <activity android:name="com.hdsy.ls300.ActivityNewConfig" >
+        </activity>
+
+        <!-- Setting Activity -->
+        <activity
+            android:name="com.hdsy.ls300.ActivitySetting"
+            android:launchMode="singleTop" >
+        </activity>
+
+        <!-- Leave Activity -->
+        <activity android:name="com.hdsy.ls300.ActivityExit" >
+        </activity>
+
+        <!-- ScanTabScanDetail Activity -->
+        <activity android:name="com.hdsy.ls300.ScanTabScanPictureDetailActivity" >
+        </activity>
+
+        <!-- ScanTabScanDetail Activity -->
+        <activity android:name="com.hdsy.ls300.ScanTabScanConfigDetailActivity" >
+        </activity>
+    </application>
+
+</manifest>

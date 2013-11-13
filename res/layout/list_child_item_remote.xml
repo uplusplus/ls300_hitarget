@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/IP"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/set_et_remote_ip"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/Port"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/set_et_remote_port"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/more_itemmiddle_press"
+            android:gravity="center"
+            android:padding="5dp" >
+
+            <TextView
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:text="@string/State"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:gravity="left|center_vertical"
+                android:padding="5dp"
+                android:src="@drawable/state_on" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

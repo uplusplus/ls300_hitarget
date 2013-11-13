@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,3" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/temp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Brown" />
+
+            <com.hdsy.ui.base.TextProgressBar
+                android:id="@+id/pb_temperature"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/battery"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Brown" />
+
+            <com.hdsy.ui.base.TextProgressBar
+                android:id="@+id/pb_battery"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/titl_x"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Brown" />
+
+            <com.hdsy.ui.base.TextProgressBar
+                android:id="@+id/pb_titl_x"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/titl_y"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Brown" />
+
+            <com.hdsy.ui.base.TextProgressBar
+                android:id="@+id/pb_titl_y"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/angle_h"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Brown" />
+
+            <com.hdsy.ui.base.TextProgressBar
+                android:id="@+id/pb_angle"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/State"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Brown" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Brown" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

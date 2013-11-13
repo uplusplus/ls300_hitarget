@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/connect"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/connect" />
+    
+    <item android:id="@+id/monitor" 
+        android:title="@string/monitor" 
+        android:icon="@android:drawable/ic_delete">
+    </item>
+    
+    <item android:id="@+id/cloud" 
+          android:title="@string/Cloud" 
+          android:icon="@android:drawable/ic_input_delete">
+    </item>
+    
+    <item android:id="@+id/photo" 
+          android:title="@string/photo" 
+          android:icon="@android:drawable/ic_menu_save">
+    </item>
+    <item android:id="@+id/cancel" android:title="@string/CANCEL"></item>
+    <item android:id="@+id/back" android:title="@string/back"></item>
+
+</menu>

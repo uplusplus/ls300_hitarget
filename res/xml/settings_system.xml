@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    settings_system.xml="" >
+
+    <PreferenceCategory android:title="@string/mode" >
+        <CheckBoxPreference
+            android:key="system_mode"
+            android:summary="@string/Native"
+            android:title="@string/Native" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Connection" >
+        <EditTextPreference android:title="@string/IP" android:summary="@string/IP" android:key="system_ip"/>
+        <EditTextPreference android:title="@string/Port" android:summary="@string/Port" android:key="system_port"/>
+        <Preference />
+    </PreferenceCategory>
+
+</PreferenceScreen>
